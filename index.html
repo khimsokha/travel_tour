@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel and Tour</title>
+    <meta name="title" content="Travel and Tour">
+    <meta name="description" content="This is">
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+    <link rel="preload" as="image" href="./assets/images/preloader.svg">
+</head>
+<body>
+
+    <!-- preloader -->
+    <div class="preloader" data-preloader>
+        <div class="preloader-inner">
+            <img src="./assets/images/preloader.svg" alt="" width="50" height="50" class="img">
+        </div>
+    </div>
+
+    <header class="header" data-header>
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="./assets/images/logo.svg" alt="logo" width="187" height="38">
+            </a>
+
+            <nav class="navbar" data-navbar>
+                <div class="navbar-top">
+                    <a href="#" class="logo">
+                        <img src="./assets/images/logo.svg" alt="logo" width="187" height="38">
+                    </a>
+
+                    <button class="nav-toggle-btn" aria-label="close menu" data-nav-toggler>
+                        <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                </div>
+
+                <ul class="navbar-list">
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link active">ទំព័រដើម</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link">អំពីយើង</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link">សេវាកម្ម</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link">តម្លៃ</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link">ទំនាក់ទំនង</a>
+                    </li>
+                </ul>
+
+                <div class="header-action">
+                    <a href="#" class="login-btn">ចូល</a>
+                    <a href="#" class="btn btn-primary">ចុះឈ្មោះ</a>
+                </div>
+
+            </nav>
+            
+            <button class="nav-toggle-btn" aria-label="open menu" data-nav-toggler>
+                <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+            </button>
+
+            <div class="overlay " data-overlay data-nav-toggler=""></div>
+        </div>
+    </header>
+
+    <main>
+        <article>
+            <section class="section hero has-bg-image" aria-label="hero" style="background-image:url('./assets/images/hero-bg.jpg')">
+                <div class="container">
+                    <div class="hero-content">
+                        <p class="hero-subtitle">
+                            រុករកជុំវិញពិភពលោក <img src="./assets/images/title-icon.svg" alt="world icon" width="20" height="20" class="img">
+                        </p>
+    
+                        <h1 class="h1 title hero-title">
+                            ពិភពលោកដ៏សែនធំល្វឹងល្វើយ តោះរុករក
+                        </h1>
+                        <p class="hero-text">
+                            ពួកយើងតែងតែធ្វើឱ្យភ្ញៀវសប្បាយចិត្ត ដោយផ្ដល់ជូនពួកគាត់នូវជម្រើសដែលពួកយើងអាចធ្វើបាន
+                        </p>
+                        <div class="wrapper">
+                            <a href="#" class="btn btn-secondary">
+                                <span class="span">គម្រោងដំណើរកម្សាន្ដ</span>
+                                <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+                            </a>
+                            <button class="hero-btn">
+                                <div class="btn-img">
+                                    <img src="./assets/images/hero-button-img.jpg" alt="our story" width="100" height="100" class="img-cover">
+                                    <ion-icon name="play" aria-hidden="true"></ion-icon>
+                                </div>
+                                <p class="text">មើលវីដេអូរបស់យើង</p>
+                            </button>
+                        </div>
+                    </div>
+
+                    <figure class="hero-banner">
+                        <img src="./assets/images/hero-banner.png" alt="hero banner" width="631" height="735" class="w-100">
+                    </figure>
+                </div>
+            </section>
+
+            <section class="section service" aria-label="service">
+                <div class="container">
+                    <div class="title-wrapper">
+                        <p class="section-subtitle">
+                            សេវាកម្មរបស់ពួកយើង
+                        </p>
+                        <h2 class="h2 title section-title">ផ្ដល់ជូនតម្លៃដ៏ល្អបំផុតសម្រាប់អ្នក</h2>
+                        <p class="section-text">
+                            សាកល្បងអត្ថប្រយោជន៍ផ្សេងៗនៅពេលប្រើប្រាស់សេវាកម្មរបស់យើង
+                        </p>
+                    </div>
+                    <div class="service-card">
+                        <div class="card-icon">
+                            <img src="./assets/images/service-icon-1.svg" alt="icon" width="60" height="60" loading="lazy">
+                        </div>
+                        <h3 class="h3 title card-title">ជម្រើសជាច្រើន</h3>
+                        <p class="card-text">
+                            សរុប 460+ គោលដៅដែលយើងធ្វើការជាមួយ
+                        </p>
+                    </div>
+                    <div class="service-card">
+                        <div class="card-icon">
+                            <img src="./assets/images/service-icon-2.svg" alt="icon" width="60" height="60" loading="lazy">
+                        </div>
+                        <h3 class="h3 title card-title">មគ្គុទ្ទេសក៍ទេសចរណ៍ល្អបំផុត</h3>
+                        <p class="card-text">
+                            មគ្គុទ្ទេសក៍ទេសចរណ៍របស់យើងជាមួយនឹងបទពិសោធន៍ 15+ ឆ្នាំ
+                        </p>
+                    </div>
+                    <div class="service-card">
+                        <div class="card-icon">
+                            <img src="./assets/images/service-icon-3.svg" alt="icon" width="60" height="60" loading="lazy">
+                        </div>
+                        <h3 class="h3 title card-title">ការកក់ងាយស្រួល</h3>
+                        <p class="card-text">
+                            ជាមួយនឹងដំណើរការទិញសំបុត្រដ៏ងាយស្រួល និងរហ័ស
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section desti" aria-label="destination">
+                <div class="container">
+                    <p class="section-subtitle">គោលដៅកំពូល</p>
+                    <h2 class="h2 title section-title">រុករកគោលដៅកំពូល</h2>
+                    <ul class="desti-list">
+                        <li>
+                            <div class="desti-card">
+                                <div class="card-banner img-holder" style="--width: 600 ;--height:650 ;">
+                                    <img src="./assets/images/destination-1.jpg" loading="lazy" alt="Enjoy the Beauty of the del Pincio" width="600" height="650" class="img-cover">
+                                    <span class="card-price">១ ២០០ ០០០៛</span>
+                                </div>
+                                <div class="card-content">
+                                    <h3 class="h3 title">
+                                        <a href="#" class="card-title">សូមរីករាយជាមួយភាពស្រស់ស្អាតនៃ del Pincio</a>
+                                    </h3>
+                                    <address class="card-text">
+                                        រ៉ូម, អ៊ីតាលី
+                                    </address>
+                                    <div class="card-rating">
+                                        <span class="span">
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            4.7
+                                        </span>
+                                        <p class="rating-text">(11.1k Review)</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="desti-card">
+                                <div class="card-banner img-holder" style="--width: 600 ;--height:650 ;">
+                                    <img src="./assets/images/destination-2.jpg" loading="lazy" alt="Enjoy the Beauty of the del Pincio" width="600" height="650" class="img-cover">
+                                    <span class="card-price">១ ២០០ ០០០៛</span>
+                                </div>
+                                <div class="card-content">
+                                    <h3 class="h3 title">
+                                        <a href="#" class="card-title">សូមរីករាយជាមួយភាពស្រស់ស្អាតនៃ Pakistan Monument</a>
+                                    </h3>
+                                    <address class="card-text">
+                                        Islamabad, Pakistan
+                                    </address>
+                                    <div class="card-rating">
+                                        <span class="span">
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            4.7
+                                        </span>
+                                        <p class="rating-text">(11.1k Review)</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="desti-card">
+                                <div class="card-banner img-holder" style="--width: 600 ;--height:650 ;">
+                                    <img src="./assets/images/destination-3.jpg" loading="lazy" alt="Enjoy the Beauty of the del Pincio" width="600" height="650" class="img-cover">
+                                    <span class="card-price">១ ២០០ ០០០៛</span>
+                                </div>
+                                <div class="card-content">
+                                    <h3 class="h3 title">
+                                        <a href="#" class="card-title">សូមរីករាយជាមួយភាពស្រស់ស្អាតនៃ Burj Khalifa</a>
+                                    </h3>
+                                    <address class="card-text">
+                                        Skyscraper in Dubai
+                                    </address>
+                                    <div class="card-rating">
+                                        <span class="span">
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            4.7
+                                        </span>
+                                        <p class="rating-text">(11.1k Review)</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="desti-card">
+                                <div class="card-banner img-holder" style="--width: 600 ;--height:650 ;">
+                                    <img src="./assets/images/destination-4.jpg" loading="lazy" alt="Enjoy the Beauty of the del Pincio" width="600" height="650" class="img-cover">
+                                    <span class="card-price">១ ២០០ ០០០៛</span>
+                                </div>
+                                <div class="card-content">
+                                    <h3 class="h3 title">
+                                        <a href="#" class="card-title">សូមរីករាយជាមួយភាពស្រស់ស្អាតនៃ Milaidhoo</a>
+                                    </h3>
+                                    <address class="card-text">
+                                        Island in the Maldives
+                                    </address>
+                                    <div class="card-rating">
+                                        <span class="span">
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            4.7
+                                        </span>
+                                        <p class="rating-text">(11.1k Review)</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="desti-card">
+                                <div class="card-banner img-holder" style="--width: 600 ;--height:650 ;">
+                                    <img src="./assets/images/destination-5.jpg" loading="lazy" alt="Enjoy the Beauty of the del Pincio" width="600" height="650" class="img-cover">
+                                    <span class="card-price">១ ២០០ ០០០៛</span>
+                                </div>
+                                <div class="card-content">
+                                    <h3 class="h3 title">
+                                        <a href="#" class="card-title">សូមរីករាយជាមួយភាពស្រស់ស្អាតនៃ Ko Tao</a>
+                                    </h3>
+                                    <address class="card-text">
+                                        Island in the Gulf of Thailand
+                                    </address>
+                                    <div class="card-rating">
+                                        <span class="span">
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            4.7
+                                        </span>
+                                        <p class="rating-text">(11.1k Review)</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="desti-card">
+                                <div class="card-banner img-holder" style="--width: 600 ;--height:650 ;">
+                                    <img src="./assets/images/destination-6.jpg" loading="lazy" alt="Enjoy the Beauty of the del Pincio" width="600" height="650" class="img-cover">
+                                    <span class="card-price">១ ២០០ ០០០៛</span>
+                                </div>
+                                <div class="card-content">
+                                    <h3 class="h3 title">
+                                        <a href="#" class="card-title">សូមរីករាយជាមួយភាពស្រស់ស្អាតនៃ Grand Mecidiye Mosque</a>
+                                    </h3>
+                                    <address class="card-text">
+                                        Mosque in Istanbul, Türkiye
+                                    </address>
+                                    <div class="card-rating">
+                                        <span class="span">
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            4.7
+                                        </span>
+                                        <p class="rating-text">(11.1k Review)</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        
+                    </ul>
+                    <a href="#" class="btn btn-primary">មើលគោលដៅទាំងអស់</a>
+                </div>
+            </section>
+
+            <section class="section exp" aria-label="experience">
+                <div class="container">
+                    <div class="exp-content">
+                        <p class="section-subtitle">
+                            បទពិសោធន៍របស់ពួកយើង
+                        </p>
+                        <h2 class="h2 title section-title">
+                            ជាមួយបទពិសោធន៍របស់យើង ពួកយើងនឹងបម្រើអ្នកឱ្យល្អបំផុត
+                        </h2>
+                        <p class="section-text">
+                            ចាប់តាំងពីយើងបើកដំណើរការដំបូង យើងតែងតែផ្តល់អាទិភាពដល់ភាពងាយស្រួលរបស់អ្នកប្រើប្រាស់របស់យើង ដោយផ្តល់នូវតម្លៃទាប និងជាមួយនឹងដំណើរការដ៏ងាយស្រួល។
+                        </p>
+                        <ul class="exp-list">
+                            <li class="exp-item">
+                                <h3 class="h3 title item-title">20</h3>
+                                <p class="item-text">
+                                    បទពិសោធន៍<br>
+                                    ឆ្នាំ
+                                </p>
+                            </li>
+                            <li class="exp-item">
+                                <h3 class="h3 title item-title">460+</h3>
+                                <p class="item-text">
+                                    កិច្ចសហការ<br>
+                                    គោលដៅ
+                                </p>
+                            </li>
+                            <li class="exp-item">
+                                <h3 class="h3 title item-title">50K+</h3>
+                                <p class="item-text">
+                                    ភ្ញៀវ<br>
+                                    សប្បាយចិត្ត
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <figure class="exp-banner">
+                        <img src="./assets/images/experience-banner.png" width="550" height="660" alt="experience banner" loading="lazy" class="w-100">
+                        <img src="./assets/images/exp-shape.svg" width="75" height="109" loading="lazy" alt="24/7 Guide Support" class="exp-shape">
+                    </figure>
+                </div>
+            </section>
+
+            <section class="section gallery" aria-label="gallery">
+                <div class="container">
+                    <p class="section-subtitle">វិចិត្រសាលរូបភាព</p>
+                    <h2 class="h2 title section-title">
+                        រូបភាពពីដំណើរកម្សាន្ដ
+                    </h2>
+                    <ul class="gallery-list">
+                        <li class="gallery-item">
+                            <figure class="item-banner img-holder" style="--width:700; --height:925;">
+                                <img src="./assets/images/gallery-1.jpg" alt="gallery" width="700" height="925" loading="lazy" class="img-cover">
+                            </figure>
+                        </li>
+                        <li class="gallery-item">
+                            <figure class="item-banner img-holder" style="--width:700; --height:925;">
+                                <img src="./assets/images/gallery-2.jpg" alt="gallery" width="700" height="925" loading="lazy" class="img-cover">
+                            </figure>
+                        </li>
+                        <li class="gallery-item">
+                            <figure class="item-banner img-holder" style="--width:700; --height:840;">
+                                <img src="./assets/images/gallery-3.jpg" alt="gallery" width="700" height="840" loading="lazy" class="img-cover">
+                            </figure>
+                        </li>
+                        <li class="gallery-item">
+                            <figure class="item-banner img-holder" style="--width:700; --height:378;">
+                                <img src="./assets/images/gallery-4.jpg" alt="gallery" width="700" height="378" loading="lazy" class="img-cover">
+                            </figure>
+                        </li>
+                        <li class="gallery-item">
+                            <figure class="item-banner img-holder" style="--width:700; --height:378;">
+                                <img src="./assets/images/gallery-5.jpg" alt="gallery" width="700" height="378" loading="lazy" class="img-cover">
+                            </figure>
+                        </li>
+                        <li class="gallery-item">
+                            <figure class="item-banner img-holder" style="--width:700; --height:378;">
+                                <img src="./assets/images/gallery-6.jpg" alt="gallery" width="700" height="378" loading="lazy" class="img-cover">
+                            </figure>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="section cta" aria-label="call to action">
+                <div class="container">
+                    <div class="cta-card has-bg-image" style="background-image: url('./assets/images/cta-bg.jpg')">
+                        <h2 class="h2 title section-title">
+                            រៀបចំខ្លួនអ្នក & តោះស្វែងយល់ពីភាពស្រស់ស្អាតនៃពិភពលោក
+                            <img src="./assets/images/title-icon.svg" width="36" height="36" loading="lazy" alt="icon" class="img">
+                        </h2>
+                        <p class="section-text">
+                            យើងមានការផ្តល់ជូនពិសេសជាច្រើនជាពិសេសសម្រាប់អ្នក
+                        </p>
+                        <a href="#" class="btn btn-primary">តោះចាប់ផ្ដើម</a>
+                    </div>
+                </div>
+            </section>
+
+        </article>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <img src="./assets/images/logo.svg" alt="logo" width="187" height="38">
+                        <p class="footer-text">
+                            យើងតែងតែធ្វើឱ្យអតិថិជនរបស់យើង
+                            រីករាយដោយការផ្តល់ជូនជាច្រើន
+                            ជម្រើសតាមដែលអាចធ្វើបាន
+                        </p>
+                        <ul class="social-list">
+                            <li>
+                                <a href="#" class="social-link">
+                                    <ion-icon name="logo-instagram"></ion-icon>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="social-link">
+                                    <ion-icon name="logo-facebook"></ion-icon>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="social-link">
+                                    <ion-icon name="logo-twitter"></ion-icon>
+                                </a>
+                            </li>
+                        </ul>
+                    </a>
+                </div>
+                <ul class="footer-list">
+                    <li>
+                        <p class="footer-list-title">អំពី</p>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">អំពីយើង</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">លក្ខណៈពិសេស</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">ព័ត៌មាន</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">ម៉ឺនុយ</a>
+                    </li>
+                </ul>
+                <ul class="footer-list">
+                    <li>
+                        <p class="footer-list-title">ក្រុមហ៊ុន</p>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">ហេតុអ្វីត្រូវប្រើសេវាកម្មយើង</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">ដៃគូសហការ</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">FAQ</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">BLOG</a>
+                    </li>
+                </ul>
+                <ul class="footer-list">
+                    <li>
+                        <p class="footer-list-title">ផ្គត់ផ្គង់</p>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">គណនី</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">ភ្នាក់ងារ</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">ផ្ដល់មតិយោបល់</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">ទំនាក់ទំនង</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">ភាពអាច</a>
+                    </li>
+                </ul>
+                <div class="footer-list">
+                    <p class="footer-list-title">ភ្ជាប់ទំនាក់ទំនង</p>
+                    <p class="footer-text">
+                        សំណួរឬមតិកែលម្អ? យើងចង់ឮពីអ្នក។
+                    </p>
+                    <form action="" class="input-wrapper">
+                        <input type="email" name="email_address" placeholder="Email"
+                        autocomplete="off" required class="input-filed">
+                        <button type="submit" class="input-btn" aria-label="send a message">
+                            <ion-icon name="paper-plane-outline" aria-hidden="true"></ion-icon>
+
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="copyright">
+                    Copyright 2023. Made by <a href="https://www.youtube.com/watch?v=VA8cgdMpNf4&t=5214s" class="copyright-link">pusokhakhim</a>
+
+                </p>
+                <ul class="footer-bottom-list">
+                    <li>
+                        <a href="#" class="footer-bottom-link">Terms and Condition</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-bottom-link">Privacy and Policy</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./assets/js/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
